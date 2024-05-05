@@ -1,0 +1,66 @@
+html {
+    width: 100%;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    color: black;
+    background: rgb(245,245,242);
+    background: linear-gradient(90deg, rgba(245,245,242,1) 35%, rgba(229,247,254,1) 100%);
+}
+.header{
+    background-color: white;
+    height: 10vw;
+    width: 100%;
+    margin-top: -10px;
+    position: fixed;
+}
+.card{
+    width: 65vw;
+    height: 90vw;
+    background-color: white;
+    box-shadow: 2px 2px 4px #000000;
+}
+.buttonWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.textWrap{
+    padding-top:2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2.5vw;
+}
+.cardWrapper{
+    padding-left: 18%;
+    padding-bottom: 6vw;
+    padding-top: 10vw;
+}
+#email{
+    height: 8vw;
+    width: 90%;
+    padding-left: 3vw;
+    border-radius: 0;
+    border-width: 0.1vw;
+    font-size: 2.5vw;
+}
+#forgot{
+    font-family: roboto, sans-serif;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: smaller;
+}
+#forgot:hover{
+    text-decoration-line: underline;
+}
+.buttonWrap{
+    text-align: left;
+}
+#login{
+    border-radius: 0;
+    font-weight: bold;
+    height:7vw;
+    width: 55vw;
+    color: #a4a9ad;
+    border-color: transparent;
+    background-color: #d8d8d8;
+}
